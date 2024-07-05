@@ -1,0 +1,16 @@
+@import './reset.css';
+@import './variables.css';
+
+body {
+  background: linear-gradient(#f2f8fe, #e0ecfb);
+  color: var(--color-default);
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  width: 100vw;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

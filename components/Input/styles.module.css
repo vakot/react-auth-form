@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  position: relative;
+}
+
+.suffix {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: var(--color-primary);
+}
+
+.input {
+  flex: 1;
+
+  display: block;
+  padding: 14px 32px 14px 14px;
+
+  border-radius: 12px;
+  border: 1px solid transparent;
+  background-color: var(--color-secondary);
+  outline: none;
+
+  font-size: 14px;
+
+  transition: border-color 0.3s;
+}
+
+.input:focus {
+  border-color: var(--color-primary);
+}
+
+.input.success {
+  color: var(--color-success);
+  border-color: var(--color-success);
+}
+
+.input.error {
+  color: var(--color-error);
+  border-color: var(--color-error);
+}
